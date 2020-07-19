@@ -1,2 +1,3 @@
 # dinogeek
-ecommerce geek stuff with javascript
+
+ecommerce geek stuff with javascript only

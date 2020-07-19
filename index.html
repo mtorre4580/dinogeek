@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Dinogeek</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="css/estilos.css" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="contenedorHeader">
+				<h1>Dinogeek</h1>
+				<div>
+					<a class="carritoActive" href="#"></a>
+					<span id="cantidad"></span>
+				</div>
+				<p id="totalPrecio"></p>
+			</div>
+			<nav>
+				<form method="get" action="#">
+					<input class="busqueda" type="text" placeholder="¿Qué estas buscando?" />
+				</form>
+				<ul>
+					<li>
+						<a id="inicio" class="colorActiveMenu" href="#">Inicio</a>
+					</li>
+					<li>
+						<a id="productos" href="#">Productos</a>
+					</li>
+					<li>
+						<a id="contacto" href="#">Contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div id="view"></div>
+		</main>
+		<footer>
+			<div>
+				<ul>
+					<li>
+						<a href="#">Trabaja con nosotros</a>
+					</li>
+					<li>
+						<a href="#">Términos y condiciones</a>
+					</li>
+					<li>
+						<a href="#">Políticas de privacidad</a>
+					</li>
+					<li>
+						<a href="#">Ayuda</a>
+					</li>
+				</ul>
+			</div>
+			<p class="dinoGeekFooter">Dinogeek -2017- Argentina</p>
+			<div class="redesSocialesDiv">
+				<a href="#" title="Facebook" id="facebook-link"></a>
+				<a href="#" title="Twitter" id="twitter-link"></a>
+				<a href="#" title="Instagram" id="instagram-link"></a>
+				<a href="#" title="Youtube" id="youtube-link"></a>
+			</div>
+		</footer>
+		<!-- Productos y Categorias -->
+		<script src="productos.js"></script>
+		<!-- Logica View -->
+		<script src="main.js"></script>
+	</body>
+</html>
